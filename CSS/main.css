@@ -52,6 +52,8 @@ section{
 .skills-box img{
     padding-bottom: 10px;
     border-bottom: thin solid #333;
+    width: 200px;
+    height: 200px;
 }
 
 .skills-box:hover{
@@ -61,4 +63,19 @@ section{
 .percent{
     font-size: 4em;
     color: dodgerblue;
+}
+
+.project-box{
+    padding: 10px;
+}
+
+.project-box img{
+    height: 300px;
+    border: 2px solid #333;
+}
+.project-box-text{
+    margin: 0;
+    padding: 5px;
+    color: #fff;
+    background: #333;
 }
