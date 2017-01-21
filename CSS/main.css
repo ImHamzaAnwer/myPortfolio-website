@@ -38,24 +38,27 @@ section{
 }
 
 .skills{
-    background: url("../images/land-img3.jpg") top center fixed;
+    /*background: url("../images/land-img3.jpg") top center fixed;*/
     background-size: cover;
+    color: #333;
+    text-align: center;
 }
 
 .skills-box{
     padding: 7px;
+    margin-bottom: 30px;
+    transition: all ease .6s;
+}
+.skills-box img{
+    padding-bottom: 10px;
+    border-bottom: thin solid #333;
 }
 
-.skill-bar{
-    height: 15px;
-    background: dodgerblue;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+.skills-box:hover{
+    box-shadow: 3px 3px 5px 5px #ccc;
 }
 
-#html-bar{width: 85%;}
-#css-bar{width: 85%;}
-#js-bar{width: 55%;}
-#jquery-bar{width: 65%;}
-#git-bar{width: 75%;}
-#bootstrap-bar{width: 80%;}
+.percent{
+    font-size: 4em;
+    color: dodgerblue;
+}
